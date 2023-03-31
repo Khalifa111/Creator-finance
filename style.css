@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+/* header style */
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  font-size: large;
+  font-weight: lighter;
+  gap: 20px;
+}
+/* header style */
+
+/* card style */
+section {
+  /* margin: 50px; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+}
+section img {
+  margin-top: 50px;
+  height: 500px;
+  width:30%;
+}
+section > div{
+  width: 45%;
+}
+.one {
+  padding-top: 100px;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+span {
+  color: rgb(61, 196, 142);
+}
+section p {
+  font-size: large;
+  margin-top: 20px;
+}
+
+section div.sub {
+  display: flex;
+  align-items: center;
+}
+section input {
+  border: 1px black solid;
+  margin: 30px 10px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 3;
+}
+button.but {
+  border: 1px white solid;
+  flex: 2;
+  padding: 20px;
+  /* width: 250px; */
+  background-color: rgb(61, 196, 142);
+  color: white;
+  border-radius: 10px;
+}
+div.jpg {
+ box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(172, 221, 240);
+}
+.jpg img {
+  padding: 50px;
+  width: 80%;
+}
+.finance h1 {
+  padding: 100px 0;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+h2 {
+  font-size: xx-large;
+  font-weight: lighter;
+}
+li {
+  padding: 5px;
+}
+.main_two ,div.main {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 90%;
+  margin: 40px auto;
+  padding: 50px 0;
+
+}
+.main_two > div, .main>div{
+width: 40%;
+}
+
+#foot {
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+#foot p {
+  font-weight: lighter;
+  font-size: larger;
+  padding-top: 20px;
+}
+/* card style  ends */
+
+/* number style */
+div.num_container{
+  display: flex;
+  height: 50vh;
+  padding: 20px;
+}
+.num {
+  width: 100%;
+  padding-top: 10px;
+}
+.nom{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.nom form{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nom form  .inner_form{
+  border: 1px solid grey;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  border-radius: 10px;
+  padding: 0px 10px;
+  align-items: center;
+}
+.num select {
+  border: none;
+  background-color: transparent;
+  width: 70px;
+  height: 25px;
+  margin-right: 10px;
+  border-right: 1px solid black;
+}
+.num input {
+  border: none;
+  background-color: transparent;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+}
+.num button {
+  border: 1px black solid;
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(129, 234, 127);
+  color: white;
+  font-weight: bolder;
+}
+.num img {
+/* width: 100%; */
+/* height: 200px; */
+object-fit: contain;
+align-self: flex-end;
+position: absolute;
+bottom: 40;
+right: -100px;
+}
+.num img{
+  width: 36vw;
+  margin-bottom: 15px;
+  padding-right: 5px;
+}
+/* number style  ends*/
+
+#container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+   background-color: aquamarine;
+  text-align: center;
+  
+}
+.contain{
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  
+}
+#influencers,#youtubers,#bloggers,#film,#artist{
+  position: relative;
+  background-color: rgb(122, 45, 122);
+  width: 300px;
+  height: 250px;
+  border-radius: 15px;
+ 
+}
+#influencers img,#youtubers img,#bloggers img,#film img,#artist img{
+  position: absolute;
+  left: 5px;
+  top: -120px;
+}
+#influencers h2,h3,p,#youtubers h2,h3,p,#bloggers h2,h3,p,#film h2,h3,p,#artist h2,h3,p{
+  padding-top: 70px;
+}
+
+
+/* Support style start here */
+
+.last{
+   padding-top: 200px;
+  justify-content: space-around;
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  gap: 10px;
+}
+#nest {
+  padding-right: 200px;
+  width: 100%;
+}
+#nest p {
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: x-large;
+}
+#laste {
+  padding-right: 200px;
+}
+#laste h1 {
+  font-weight: bolder;
+}
+#laste h3,
+h4,
+p {
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: larger;
+}
+#lasted {
+  width: 100%;
+  padding-right: 200px;
+}
+#lasted h3,
+h4,
+p {
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: larger;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+footer h4 {
+  padding-bottom: 20px;
+}
